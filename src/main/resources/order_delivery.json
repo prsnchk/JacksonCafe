@@ -1,0 +1,45 @@
+{
+  "date" : "01.02.2023 21:23",
+  "orderID" : 1,
+  "price" : 1500.0,
+  "customer" : {
+    "customerId" : 1,
+    "firstName" : "Джавеліна",
+    "secondName" : "Прекрасна",
+    "phone" : "+380937648576",
+    "email" : "dja@gmail.com"
+  },
+  "courier" : {
+    "id" : 1,
+    "firstName" : "Андрій",
+    "lastName" : "Колобок"
+  },
+  "cafe" : {
+    "id" : 1,
+    "cafeName" : "ComfortTown"
+  },
+  "deliveryProvider" : {
+    "id" : 1,
+    "providerName" : "Glovo"
+  },
+  "paymentType" : {
+    "id" : 1,
+    "name" : "Готівкою"
+  },
+  "menuItemsList" : [ {
+    "menuId" : 1,
+    "nameUkr" : "Бобер",
+    "nameEng" : "Bober",
+    "price" : 123
+  }, {
+    "menuId" : 2,
+    "nameUkr" : "Жабка",
+    "nameEng" : "Jabka",
+    "price" : 321
+  }, {
+    "menuId" : 3,
+    "nameUkr" : "Крокодил",
+    "nameEng" : "Krokodil",
+    "price" : 231
+  } ]
+}
